@@ -1,0 +1,22 @@
+@font-face {
+    font-family: sansNarrow;
+    src: url(assets/HelveticaLTNarrow.otf);
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: 'sansNarrow', Fallback, sans-serif;
+    font-size: 22px;
+    letter-spacing: .75px;
+    word-spacing: -1px;
+    line-height: 24px;
+    -webkit-text-stroke: 0.35px black;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
